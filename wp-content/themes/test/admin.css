@@ -1,0 +1,16 @@
+div.plus{
+	background-image:url(img/plus.svg);
+}
+div.minus{
+	background-image:url(img/minus.svg);
+}
+div.plus, div.minus{
+ height:16px;
+	background-size: contain;
+	background-position: left;
+	background-repeat:no-repeat;
+	padding-left:20px;
+	margin-top:10px;
+	display:flex;
+	align-items: center;	
+}
